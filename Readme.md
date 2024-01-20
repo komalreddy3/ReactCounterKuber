@@ -7,7 +7,7 @@ docker push komalreddyk/firstrepo
 
 kubectl create deployment kubercount --image=komalreddyk/firstrepo
 
-kubectl expose pod kubercount-5ff776df8c-mg2d --port=3000 --type=NodePOrt --name=kuber-service2
+kubectl expose pod kubercount-5ff776df8c-mg2d --port=3000 --type=NodePort --name=kuber-service2
 
 minikube service kuber-service2
 
